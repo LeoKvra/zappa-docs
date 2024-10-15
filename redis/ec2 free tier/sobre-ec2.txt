@@ -1,0 +1,174 @@
+Está sendo feito um AMI (Imagem de Máquina da Amazon) para garantir que a máquina volte de um ponto de configuração original
+
+**********
+IMPORTANTE
+**********
+
+É possível reutilizar o ip privado quando relançar a AMI
+
+Passos para criação da AMI e reutilização do ip provado sendo o Chat GPT:
+
+
+
+AMI criada em 15/10/24: zappa-ecs-redis-producao
+
+***********
+Ip privado  172.31.43.101
+***********
+
+
+Outras configs:
+
+Instance ID
+
+i-0423ae030a5c7af1d (zappa-ecs-redis-producao)
+Public IPv4 address
+
+18.234.154.13 | open address 
+Private IPv4 addresses
+
+172.31.43.101
+IPv6 address
+–
+Instance state
+Running
+Public IPv4 DNS
+
+ec2-18-234-154-13.compute-1.amazonaws.com
+|
+open address 
+Hostname type
+IP name: ip-172-31-43-101.ec2.internal
+Private IP DNS name (IPv4 only)
+
+ip-172-31-43-101.ec2.internal
+Answer private resource DNS name
+IPv4 (A)
+Instance type
+t2.micro
+Elastic IP addresses
+–
+Auto-assigned IP address
+
+18.234.154.13 [Public IP]
+VPC ID
+
+vpc-0f7ede1541c981ff4 
+AWS Compute Optimizer finding
+Opt-in to AWS Compute Optimizer for recommendations.
+|
+Learn more 
+IAM Role
+–
+Subnet ID
+
+subnet-0b10459a00b8b1834 
+Auto Scaling Group name
+–
+IMDSv2
+Required
+Instance ARN
+
+arn:aws:ec2:us-east-1:491211389536:instance/i-0423ae030a5c7af1d
+Instance details
+Info
+Platform
+
+Amazon Linux (Inferred)
+AMI ID
+
+ami-00f251754ac5da7f0
+Monitoring
+disabled
+Platform details
+
+Linux/UNIX
+AMI name
+
+amzn2-ami-kernel-5.10-hvm-2.0.20241001.0-x86_64-gp2
+Termination protection
+Disabled
+Stop protection
+Disabled
+Launch time
+
+Sun Oct 06 2024 11:10:06 GMT-0300 (Brasilia Standard Time) (9 days)
+AMI location
+
+amazon/amzn2-ami-kernel-5.10-hvm-2.0.20241001.0-x86_64-gp2
+Instance auto-recovery
+Default
+Lifecycle
+normal
+Stop-hibernate behavior
+Disabled
+AMI Launch index
+0
+Key pair assigned at launch
+
+ZAPPA-DEFAULT-KEY-PAIR
+State transition reason
+–
+Credit specification
+standard
+Kernel ID
+–
+State transition message
+–
+Usage operation
+
+RunInstances
+RAM disk ID
+–
+Owner
+
+491211389536
+Enclaves Support
+–
+Boot mode
+–
+Current instance boot mode
+
+legacy-bios
+Allow tags in instance metadata
+Disabled
+Use RBN as guest OS hostname
+
+Disabled
+Answer RBN DNS hostname IPv4
+
+Enabled
+Host and placement group
+Info
+Host ID
+–
+Affinity
+–
+Placement group
+–
+Host resource group name
+–
+Tenancy
+
+default
+Placement group ID
+–
+Virtualization type
+
+hvm
+Reservation
+
+r-060d5bbd647f4f7a8
+Partition number
+–
+Number of vCPUs
+1
+Capacity reservation
+Info
+Capacity Reservation ID
+–
+Capacity Reservation setting
+open
+Accelerators
+Info
+Elastic Graphics ID
