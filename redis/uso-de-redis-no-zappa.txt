@@ -1,0 +1,13 @@
+obs sobre redis no ec2:
+
+1. alguma configurações para habilitar o redis precisam ser executadas. como abrir o arquivo de config e liberar porta , etc. esse procedimento não foi anotado mas é facilmente obtido no chat gpt, por exemplo
+
+2. respostas para eventos do redis
+************************************
+CONFIG SET notify-keyspace-events Kx
+************************************
+
+o comando acima permite que você receba eventos de inserção de chaves. O padrão Kx ativa notificações para eventos de expiração e inserção.
+
+
+
