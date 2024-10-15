@@ -104,14 +104,14 @@
         <mxCell id="GBnZuMFmrzQNFnWWCVj_-3" value="ADMIN&lt;br&gt;(MS6)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1eh-dSSV-2nS1JZkb8D_-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;VERSÃO UM - DISPATCHER - Mais de um fluxo / cliente&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="940" width="620" height="80" as="geometry" />
+        <mxCell id="1eh-dSSV-2nS1JZkb8D_-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;VERSÃO TRÊS - DISPATCHER - Mais de um fluxo / cliente&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1190" width="620" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1eh-dSSV-2nS1JZkb8D_-4" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;🚀⛔⚠️🤓✅&amp;nbsp;🎯&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="1030" width="110" height="40" as="geometry" />
+          <mxGeometry x="680" y="1280" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1eh-dSSV-2nS1JZkb8D_-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;OBS GERAIS&lt;br&gt;MS1 -avaliar aletrar a tecnologia para reduzir&amp;nbsp;o delay&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1020" width="390" height="80" as="geometry" />
+          <mxGeometry x="80" y="1270" width="390" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1eh-dSSV-2nS1JZkb8D_-9" value="Update DB&lt;br&gt;(MS7)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="410" width="120" height="60" as="geometry" />
@@ -121,6 +121,15 @@
             <mxPoint x="360" y="360" as="sourcePoint" />
             <mxPoint x="440" y="360" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1eh-dSSV-2nS1JZkb8D_-12" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font color=&quot;#990000&quot;&gt;Em andamento&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#ffffff&quot;&gt;No service que salva o redis de notificacao:*:* ex: notificacao:WHATSAPP:usuario, enviar mensagem para fila sqs a ser processada por MS4&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="600" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1eh-dSSV-2nS1JZkb8D_-13" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;VERSÃO UM - Persistir em banco e melhorar versão ZERO&lt;/h1&gt;&lt;div&gt;MS7: Dependendo do pattern da chave do redis enviar par fila específica, ex de notificação; SOLUÇÃO IDEAL SERIA&amp;nbsp; a cada SET de redis enviar para uma fila para saber o que fazer, notificar, salvar em banco. para evitar muito envio de fila ter uim pré filtro por pattern&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="938" width="620" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="1eh-dSSV-2nS1JZkb8D_-14" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;VERSÃO DOIS - Encerrar sessão no Redis&lt;/h1&gt;&lt;div&gt;EC2: Colocar código na EC2 que notifique usuário ao final da sessão, enviando para fila SQS&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1078" width="620" height="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
