@@ -122,20 +122,11 @@
             <mxPoint x="440" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1eh-dSSV-2nS1JZkb8D_-12" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font color=&quot;#990000&quot;&gt;Em andamento&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#ffffff&quot;&gt;No service que salva o redis de notificacao:*:* ex: notificacao:WHATSAPP:usuario, enviar mensagem para fila sqs a ser processada por MS4&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="530" y="600" width="180" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="1eh-dSSV-2nS1JZkb8D_-13" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;VERSÃO UM - Persistir em banco e melhorar versão ZERO&lt;/h1&gt;&lt;div&gt;MS7: Dependendo do pattern da chave do redis enviar par fila específica, ex de notificação; SOLUÇÃO IDEAL SERIA&amp;nbsp; a cada SET de redis enviar para uma fila para saber o que fazer, notificar, salvar em banco. para evitar muito envio de fila ter uim pré filtro por pattern&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="938" width="620" height="122" as="geometry" />
         </mxCell>
         <mxCell id="1eh-dSSV-2nS1JZkb8D_-14" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;VERSÃO DOIS - Encerrar sessão no Redis&lt;/h1&gt;&lt;div&gt;EC2: Colocar código na EC2 que notifique usuário ao final da sessão, enviando para fila SQS&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="1078" width="620" height="102" as="geometry" />
-        </mxCell>
-        <mxCell id="1eh-dSSV-2nS1JZkb8D_-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.935;entryY=0.672;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.678;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#d80073;strokeColor=#A50040;" parent="1" source="1eh-dSSV-2nS1JZkb8D_-12" target="1eh-dSSV-2nS1JZkb8D_-13" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="740" y="847.081081081081" as="sourcePoint" />
-            <mxPoint x="800" y="850" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
