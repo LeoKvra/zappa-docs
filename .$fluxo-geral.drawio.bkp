@@ -1,16 +1,16 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="x4owEQR5tJqsFIFqXLhK">
-    <mxGraphModel dx="989" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="aL0qmMMuCSAnXSBfhj6i-2" value="Usuário&lt;div&gt;Whatsapp/*&lt;br&gt;Webhook&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="160" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aL0qmMMuCSAnXSBfhj6i-4" value="Receive&lt;br&gt;(MS1)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="aL0qmMMuCSAnXSBfhj6i-4" value="Receive&lt;br&gt;(MS1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
           <mxGeometry x="140" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aL0qmMMuCSAnXSBfhj6i-7" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=12 12;fillColor=#e3c800;strokeColor=#B09500;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-2" edge="1">
+        <mxCell id="aL0qmMMuCSAnXSBfhj6i-7" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620" y="490" as="sourcePoint" />
             <mxPoint x="130" y="190" as="targetPoint" />
@@ -19,16 +19,16 @@
         <mxCell id="aL0qmMMuCSAnXSBfhj6i-8" value="Dispatcher&lt;br&gt;(MS2)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aL0qmMMuCSAnXSBfhj6i-9" value="ChatBot&lt;br&gt;(MS3)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="aL0qmMMuCSAnXSBfhj6i-9" value="ChatBot&lt;br&gt;(MS3)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
           <mxGeometry x="230" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aL0qmMMuCSAnXSBfhj6i-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-4" target="aL0qmMMuCSAnXSBfhj6i-8" edge="1">
+        <mxCell id="aL0qmMMuCSAnXSBfhj6i-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-4" target="aL0qmMMuCSAnXSBfhj6i-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="200" as="sourcePoint" />
             <mxPoint x="320" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aL0qmMMuCSAnXSBfhj6i-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.367;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.333;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fillColor=#60a917;strokeColor=#2D7600;dashPattern=12 12;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-4" target="aL0qmMMuCSAnXSBfhj6i-9" edge="1">
+        <mxCell id="aL0qmMMuCSAnXSBfhj6i-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.367;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.333;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-4" target="aL0qmMMuCSAnXSBfhj6i-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620" y="490" as="sourcePoint" />
             <mxPoint x="670" y="440" as="targetPoint" />
@@ -39,25 +39,25 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aL0qmMMuCSAnXSBfhj6i-13" value="Comunicador&lt;br&gt;(MS4)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="aL0qmMMuCSAnXSBfhj6i-13" value="Comunicador&lt;br&gt;(MS4)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
           <mxGeometry x="430" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aL0qmMMuCSAnXSBfhj6i-14" value="Sistema" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="70" width="50" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="aL0qmMMuCSAnXSBfhj6i-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-14" target="aL0qmMMuCSAnXSBfhj6i-8" edge="1">
+        <mxCell id="aL0qmMMuCSAnXSBfhj6i-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-14" target="aL0qmMMuCSAnXSBfhj6i-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620" y="490" as="sourcePoint" />
             <mxPoint x="670" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aL0qmMMuCSAnXSBfhj6i-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.425;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.617;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-8" target="aL0qmMMuCSAnXSBfhj6i-9" edge="1">
+        <mxCell id="aL0qmMMuCSAnXSBfhj6i-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.425;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.617;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-8" target="aL0qmMMuCSAnXSBfhj6i-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620" y="490" as="sourcePoint" />
             <mxPoint x="670" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aL0qmMMuCSAnXSBfhj6i-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.7;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-8" target="aL0qmMMuCSAnXSBfhj6i-13" edge="1">
+        <mxCell id="aL0qmMMuCSAnXSBfhj6i-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.7;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-8" target="aL0qmMMuCSAnXSBfhj6i-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620" y="490" as="sourcePoint" />
             <mxPoint x="670" y="440" as="targetPoint" />
@@ -68,7 +68,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aL0qmMMuCSAnXSBfhj6i-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;fillColor=#60a917;strokeColor=#2D7600;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-9" target="aL0qmMMuCSAnXSBfhj6i-13" edge="1">
+        <mxCell id="aL0qmMMuCSAnXSBfhj6i-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-9" target="aL0qmMMuCSAnXSBfhj6i-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620" y="490" as="sourcePoint" />
             <mxPoint x="670" y="440" as="targetPoint" />
@@ -77,28 +77,28 @@
         <mxCell id="aL0qmMMuCSAnXSBfhj6i-19" value="Usuário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="690" y="210" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aL0qmMMuCSAnXSBfhj6i-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=12 12;fillColor=#008a00;strokeColor=#005700;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-13" target="aL0qmMMuCSAnXSBfhj6i-19" edge="1">
+        <mxCell id="aL0qmMMuCSAnXSBfhj6i-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-13" target="aL0qmMMuCSAnXSBfhj6i-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620" y="490" as="sourcePoint" />
             <mxPoint x="680" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aL0qmMMuCSAnXSBfhj6i-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.65;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.02;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-13" target="aL0qmMMuCSAnXSBfhj6i-14" edge="1">
+        <mxCell id="aL0qmMMuCSAnXSBfhj6i-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.65;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.02;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-13" target="aL0qmMMuCSAnXSBfhj6i-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="330" as="sourcePoint" />
             <mxPoint x="690" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aL0qmMMuCSAnXSBfhj6i-22" value="Processamento&lt;br&gt;Externo&lt;br&gt;(MS5)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="aL0qmMMuCSAnXSBfhj6i-22" value="Processamento&lt;br&gt;Externo&lt;br&gt;(MS5)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
           <mxGeometry x="230" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aL0qmMMuCSAnXSBfhj6i-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-9" target="aL0qmMMuCSAnXSBfhj6i-22" edge="1">
+        <mxCell id="aL0qmMMuCSAnXSBfhj6i-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="390" as="sourcePoint" />
-            <mxPoint x="670" y="440" as="targetPoint" />
+            <mxPoint x="280" y="380" as="sourcePoint" />
+            <mxPoint x="280" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GBnZuMFmrzQNFnWWCVj_-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;VERSÃO ZERO - Dois em cena&lt;/h1&gt;&lt;div&gt;MS1: Receber mensagem via api gateway e colocar em fila para processamento para chat sem passar pelo dispatcher nesse momento (limitando usuário)&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;✅&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MS1 - publicar (pipeline)&amp;nbsp;&lt;/span&gt;✅&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;MS1 - criar apigateway com chave de acesso&lt;/span&gt;&amp;nbsp;✅&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MS3: Iniciar fluxo em andamento para Dois em Cena&amp;nbsp;&lt;/span&gt;✅&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MS3: colocar mensagem em fila para envio no comunicador&amp;nbsp;&lt;/span&gt;✅&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;MS4: Enviar mensagem para usuário via Whatsapp&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;✅&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(fazer redirecionamento das mensagens no webhook)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;✅&lt;/span&gt;&lt;/div&gt;&lt;div&gt;-----------------------------------------------------------&lt;br&gt;MS5: Fazer o processamento externo e colocar mensagem para reprocessamento no Chat Bot (MS3) 🤓&lt;br&gt;MS6: Num primeiro momento deixar o fluxo por dentro do sistema até a base estar resolvida)&lt;br&gt;Apagar repo do code commit&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="GBnZuMFmrzQNFnWWCVj_-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;VERSÃO ZERO - Dois em cena&lt;/h1&gt;&lt;div&gt;MS1: Receber mensagem via api gateway e colocar em fila para processamento para chat sem passar pelo dispatcher nesse momento (limitando usuário)&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;✅&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MS1 - publicar (pipeline)&amp;nbsp;&lt;/span&gt;✅&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;MS1 - criar apigateway com chave de acesso&lt;/span&gt;&amp;nbsp;✅&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MS3: Iniciar fluxo em andamento para Dois em Cena&amp;nbsp;&lt;/span&gt;✅&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MS3: colocar mensagem em fila para envio no comunicador&amp;nbsp;&lt;/span&gt;✅&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;MS4: Enviar mensagem para usuário via Whatsapp&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;✅&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(fazer redirecionamento das mensagens no webhook)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;✅&lt;/span&gt;&lt;/div&gt;&lt;div&gt;MS5: Fazer o processamento externo e colocar mensagem para reprocessamento no Chat Bot (MS3) ✅&lt;br&gt;MS6: Num primeiro momento deixar o fluxo por dentro do sistema até a base estar resolvida) ✅&lt;br&gt;-----------------------------------------------------------&lt;br&gt;Apagar repo do code commit&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="670" width="620" height="270" as="geometry" />
         </mxCell>
         <mxCell id="GBnZuMFmrzQNFnWWCVj_-3" value="ADMIN&lt;br&gt;(MS6)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -116,20 +116,26 @@
         <mxCell id="1eh-dSSV-2nS1JZkb8D_-9" value="Update DB&lt;br&gt;(MS7)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1eh-dSSV-2nS1JZkb8D_-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;fillColor=#e3c800;strokeColor=#B09500;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-9" target="1eh-dSSV-2nS1JZkb8D_-9" edge="1">
+        <mxCell id="1eh-dSSV-2nS1JZkb8D_-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fillColor=#e3c800;strokeColor=#FFFFFF;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-9" target="1eh-dSSV-2nS1JZkb8D_-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="360" as="sourcePoint" />
             <mxPoint x="440" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1eh-dSSV-2nS1JZkb8D_-13" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;VERSÃO UM - Persistir em banco, autenticar kdoq e melhorar versão ZERO SE NECESSÁRIO&lt;/h1&gt;&lt;div&gt;MS7: Dependendo do pattern da chave do redis enviar par fila específica, ex de notificação; SOLUÇÃO IDEAL SERIA&amp;nbsp; a cada SET de redis enviar para uma fila para saber o que fazer, notificar, salvar em banco. para evitar muito envio de fila ter uim pré filtro por pattern&lt;br&gt;MS6: Gravar fluxo no redis via api gateway&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="1eh-dSSV-2nS1JZkb8D_-13" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;VERSÃO UM - Persistir em banco, &lt;font style=&quot;background-color: rgb(255, 255, 255);&quot; color=&quot;#660000&quot;&gt;autenticar kdoq&lt;/font&gt; e melhorar versão ZERO SE NECESSÁRIO&lt;/h1&gt;&lt;div&gt;MS7: Dependendo do pattern da chave do redis enviar par fila específica, ex de notificação; SOLUÇÃO IDEAL SERIA&amp;nbsp; a cada SET de redis enviar para uma fila para saber o que fazer, notificar, salvar em banco. para evitar muito envio de fila ter uim pré filtro por pattern&lt;br&gt;MS6: Gravar fluxo no redis via api gateway&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="920" width="620" height="180" as="geometry" />
         </mxCell>
         <mxCell id="1eh-dSSV-2nS1JZkb8D_-14" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;VERSÃO DOIS - Encerrar sessão no Redis e telemetria, ambiente segregado de teste&lt;/h1&gt;&lt;div&gt;EC2: Colocar código na EC2 que notifique usuário ao final da sessão, enviando para fila SQS&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="1110" width="620" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="YbBsrdi25ZlUFy5NanMd-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;IR COLOCANDO PARA ALGUNS USUÁRIOS EM PROD&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;EC2: Colocar código na EC2 que notifique usuário ao final da sessão, enviando para fila SQS&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YbBsrdi25ZlUFy5NanMd-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;IR COLOCANDO PARA ALGUNS USUÁRIOS EM PROD&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;EC2: Colocar código na EC2 que notifique usuário ao final da sessão, enviando para fila SQS&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="1210" width="620" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="nkaNtSG07Uki3cE-NxQm-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f0a30a;strokeColor=#BD7000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="480" as="sourcePoint" />
+            <mxPoint x="300" y="380" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
