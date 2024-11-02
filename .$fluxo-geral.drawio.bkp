@@ -36,13 +36,13 @@
         </mxCell>
         <mxCell id="aL0qmMMuCSAnXSBfhj6i-12" value="Fluxo direto&amp;nbsp;&lt;div&gt;(temporário 2 em cena)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="aL0qmMMuCSAnXSBfhj6i-11" vertex="1" connectable="0">
           <mxGeometry x="0.0034" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-30" y="-35" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aL0qmMMuCSAnXSBfhj6i-13" value="Comunicador&lt;br&gt;(MS4)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
           <mxGeometry x="430" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aL0qmMMuCSAnXSBfhj6i-14" value="Sistema" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" parent="1" vertex="1">
+        <mxCell id="aL0qmMMuCSAnXSBfhj6i-14" value="Sistema" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#A50040;fillColor=#d80073;shape=mxgraph.azure.computer;pointerEvents=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="690" y="70" width="50" height="45" as="geometry" />
         </mxCell>
         <mxCell id="aL0qmMMuCSAnXSBfhj6i-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-14" target="aL0qmMMuCSAnXSBfhj6i-8" edge="1">
@@ -98,7 +98,7 @@
             <mxPoint x="280" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GBnZuMFmrzQNFnWWCVj_-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;VERSÃO ZERO - Dois em cena&lt;/h1&gt;&lt;div&gt;MS1: Receber mensagem via api gateway e colocar em fila para processamento para chat sem passar pelo dispatcher nesse momento (limitando usuário)&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;✅&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MS1 - publicar (pipeline)&amp;nbsp;&lt;/span&gt;✅&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;MS1 - criar apigateway com chave de acesso&lt;/span&gt;&amp;nbsp;✅&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MS3: Iniciar fluxo em andamento para Dois em Cena&amp;nbsp;&lt;/span&gt;✅&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MS3: colocar mensagem em fila para envio no comunicador&amp;nbsp;&lt;/span&gt;✅&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;MS4: Enviar mensagem para usuário via Whatsapp&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;✅&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(fazer redirecionamento das mensagens no webhook)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;✅&lt;/span&gt;&lt;/div&gt;&lt;div&gt;MS5: Fazer o processamento externo e colocar mensagem para reprocessamento no Chat Bot (MS3) ✅&lt;br&gt;MS6: Num primeiro momento deixar o fluxo por dentro do sistema até a base estar resolvida) ✅&lt;br&gt;-----------------------------------------------------------&lt;br&gt;Apagar repo do code commit&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="GBnZuMFmrzQNFnWWCVj_-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;VERSÃO ZERO - Dois em cena&lt;/h1&gt;&lt;div&gt;MS1: Receber mensagem via api gateway e colocar em fila para processamento para chat sem passar pelo dispatcher nesse momento (limitando usuário)&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;✅&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MS1 - publicar (pipeline)&amp;nbsp;&lt;/span&gt;✅&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;MS1 - criar apigateway com chave de acesso&lt;/span&gt;&amp;nbsp;✅&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MS3: Iniciar fluxo em andamento para Dois em Cena&amp;nbsp;&lt;/span&gt;✅&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MS3: colocar mensagem em fila para envio no comunicador&amp;nbsp;&lt;/span&gt;✅&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;MS4: Enviar mensagem para usuário via Whatsapp&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;✅&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(fazer redirecionamento das mensagens no webhook)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;✅&lt;/span&gt;&lt;/div&gt;&lt;div&gt;MS5: Fazer o processamento externo e colocar mensagem para reprocessamento no Chat Bot (MS3) ✅&lt;br&gt;MS6: Num primeiro momento deixar o fluxo por dentro do sistema até a base estar resolvida) ✅&lt;br&gt;-----------------------------------------------------------&lt;br&gt;Implementar KDoQ&lt;br&gt;Apagar repo do code commit&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="670" width="620" height="270" as="geometry" />
         </mxCell>
         <mxCell id="GBnZuMFmrzQNFnWWCVj_-3" value="ADMIN&lt;br&gt;(MS6)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -114,9 +114,9 @@
           <mxGeometry x="80" y="1390" width="500" height="110" as="geometry" />
         </mxCell>
         <mxCell id="1eh-dSSV-2nS1JZkb8D_-9" value="Update DB&lt;br&gt;(MS7)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1eh-dSSV-2nS1JZkb8D_-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fillColor=#e3c800;strokeColor=#FFFFFF;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-9" target="1eh-dSSV-2nS1JZkb8D_-9" edge="1">
+        <mxCell id="1eh-dSSV-2nS1JZkb8D_-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.975;entryY=0.65;entryDx=0;entryDy=0;dashed=1;fillColor=#e3c800;strokeColor=#FFFFFF;entryPerimeter=0;" parent="1" source="aL0qmMMuCSAnXSBfhj6i-9" target="1eh-dSSV-2nS1JZkb8D_-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="360" as="sourcePoint" />
             <mxPoint x="440" y="360" as="targetPoint" />
@@ -131,10 +131,22 @@
         <mxCell id="YbBsrdi25ZlUFy5NanMd-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;IR COLOCANDO PARA ALGUNS USUÁRIOS EM PROD&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;EC2: Colocar código na EC2 que notifique usuário ao final da sessão, enviando para fila SQS&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="1210" width="620" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="nkaNtSG07Uki3cE-NxQm-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f0a30a;strokeColor=#BD7000;" edge="1" parent="1">
+        <mxCell id="nkaNtSG07Uki3cE-NxQm-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="300" y="480" as="sourcePoint" />
             <mxPoint x="300" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ilmx-3grEzoUCPjHxORe-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.222;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;entryX=0.833;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d80073;strokeColor=#A50040;" edge="1" parent="1" source="aL0qmMMuCSAnXSBfhj6i-14" target="aL0qmMMuCSAnXSBfhj6i-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="63" as="sourcePoint" />
+            <mxPoint x="260" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ilmx-3grEzoUCPjHxORe-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.425;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="1eh-dSSV-2nS1JZkb8D_-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="190" as="sourcePoint" />
+            <mxPoint x="253" y="297" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
