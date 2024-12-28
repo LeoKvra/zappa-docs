@@ -99,7 +99,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GBnZuMFmrzQNFnWWCVj_-3" value="ADMIN&lt;br&gt;(MS6)" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1eh-dSSV-2nS1JZkb8D_-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;VERSÃO TRÊS - DISPATCHER - Mais de um fluxo / cliente&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="979" width="620" height="80" as="geometry" />
@@ -147,7 +147,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4-EW7Kehn3T6qbQ03CiU-1" value="&lt;div&gt;TELEMETRY&lt;br&gt;(MS7)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
-          <mxGeometry x="480" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csSv-mPamdn4pm_fSh2o-1" value="Processamento&lt;br&gt;Meu Cascalho&lt;br&gt;(MS6)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="365" y="480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
