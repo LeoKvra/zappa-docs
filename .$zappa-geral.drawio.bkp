@@ -16,7 +16,7 @@
         <mxCell id="3A4aCv_wWsXOsg5iLZ_A-6" value="access" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="590" y="240" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3A4aCv_wWsXOsg5iLZ_A-7" value="Zappa Micro&lt;br&gt;Front End" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+        <mxCell id="3A4aCv_wWsXOsg5iLZ_A-7" value="Zappa Client&lt;br&gt;Micro&amp;nbsp;Front End" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="460" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3A4aCv_wWsXOsg5iLZ_A-8" value="webhook" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
@@ -25,7 +25,7 @@
         <mxCell id="3A4aCv_wWsXOsg5iLZ_A-9" value="crud" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="590" y="210" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3A4aCv_wWsXOsg5iLZ_A-10" value="metrics" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="3A4aCv_wWsXOsg5iLZ_A-10" value="metrics" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="590" y="180" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3A4aCv_wWsXOsg5iLZ_A-11" value="chat" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;labelBorderColor=default;fontColor=#000000;" parent="1" vertex="1">
@@ -61,13 +61,13 @@
         <mxCell id="3A4aCv_wWsXOsg5iLZ_A-21" value="MÓDULOS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="120" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="L-Rg0BLthTsQ2UDCXc2B-1" value="Zappa Vendas&lt;br&gt;Front End" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+        <mxCell id="L-Rg0BLthTsQ2UDCXc2B-1" value="Zappa Admin&lt;br&gt;Admin Front End" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
           <mxGeometry x="510" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L-Rg0BLthTsQ2UDCXc2B-4" value="alerta" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="640" y="480" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="L-Rg0BLthTsQ2UDCXc2B-5" value="painel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+        <mxCell id="L-Rg0BLthTsQ2UDCXc2B-5" value="painel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
           <mxGeometry x="640" y="390" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="L-Rg0BLthTsQ2UDCXc2B-6" value="mensagens" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;fontColor=#000000;" vertex="1" parent="1">
