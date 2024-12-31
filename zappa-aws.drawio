@@ -1,0 +1,136 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Page-1" id="HlsvhmW3av7VHwLdQgCf">
+    <mxGraphModel dx="937" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-2" value="LAM&lt;span style=&quot;background-color: initial;&quot;&gt;BDA-WEBHOOK&lt;/span&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="35.900000000000006" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-3" value="API - WEBHHOK" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="20.9" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ODSV5JHqLEHWbGWHMjn7-3" target="ODSV5JHqLEHWbGWHMjn7-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="440" as="sourcePoint" />
+            <mxPoint x="450" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-6" value="WHATSAPP API OFICIAL" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.whatsapp;fillColor=#00E676;strokeColor=#dddddd" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="74.4" height="74.8" as="geometry" />
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ODSV5JHqLEHWbGWHMjn7-6" target="ODSV5JHqLEHWbGWHMjn7-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="180" as="sourcePoint" />
+            <mxPoint x="110" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-8" value="SQS DISPATCGER" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="230" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-9" value="LAM&lt;span style=&quot;background-color: initial;&quot;&gt;BDA-DISPATCHER&lt;/span&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="64.39999999999998" y="380" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ODSV5JHqLEHWbGWHMjn7-2" target="ODSV5JHqLEHWbGWHMjn7-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ODSV5JHqLEHWbGWHMjn7-8" target="ODSV5JHqLEHWbGWHMjn7-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="390" as="sourcePoint" />
+            <mxPoint x="480" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-13" value="LAM&lt;span style=&quot;background-color: initial;&quot;&gt;BDA-CHATBOT&lt;/span&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="268.25" y="380" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.927;exitY=0.317;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ODSV5JHqLEHWbGWHMjn7-9" target="ODSV5JHqLEHWbGWHMjn7-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="390" as="sourcePoint" />
+            <mxPoint x="500" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="297" y="323" as="sourcePoint" />
+            <mxPoint x="295" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-16" value="SQS COMUNICADOR" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="580" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ODSV5JHqLEHWbGWHMjn7-13" target="ODSV5JHqLEHWbGWHMjn7-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="390" as="sourcePoint" />
+            <mxPoint x="470" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-18" value="LAM&lt;span style=&quot;background-color: initial;&quot;&gt;BDA-COMUNICADOR&lt;/span&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="178.25" y="730" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ODSV5JHqLEHWbGWHMjn7-16" target="ODSV5JHqLEHWbGWHMjn7-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="560" as="sourcePoint" />
+            <mxPoint x="470" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-20" value="SQS TELEMETRY" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="590" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="ODSV5JHqLEHWbGWHMjn7-20" source="ODSV5JHqLEHWbGWHMjn7-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495" y="453" as="sourcePoint" />
+            <mxPoint x="680" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-22" value="LAM&lt;span style=&quot;background-color: initial;&quot;&gt;BDA-TELEMETRY&lt;/span&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="388.25" y="740" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ODSV5JHqLEHWbGWHMjn7-20" target="ODSV5JHqLEHWbGWHMjn7-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="570" as="sourcePoint" />
+            <mxPoint x="680" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-32" value="SQS PROCESSAMENTO&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="590" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="ODSV5JHqLEHWbGWHMjn7-32" source="ODSV5JHqLEHWbGWHMjn7-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="443" as="sourcePoint" />
+            <mxPoint x="850" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-34" value="LAM&lt;span style=&quot;background-color: initial;&quot;&gt;BDA-PROCESSAMENTO&lt;/span&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="558.25" y="450" width="60" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="ODSV5JHqLEHWbGWHMjn7-32" target="ODSV5JHqLEHWbGWHMjn7-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="570" as="sourcePoint" />
+            <mxPoint x="850" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-36" value="SQS-RESULTADO-PROCESSAMENTO" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="250" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.145;exitY=0.145;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ODSV5JHqLEHWbGWHMjn7-34" target="ODSV5JHqLEHWbGWHMjn7-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="510" as="sourcePoint" />
+            <mxPoint x="470" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.79;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ODSV5JHqLEHWbGWHMjn7-36" target="ODSV5JHqLEHWbGWHMjn7-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="520" as="sourcePoint" />
+            <mxPoint x="480" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ODSV5JHqLEHWbGWHMjn7-12" value="SQS CHAT-BOT-ENTRADA" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="348" y="220" width="76.5" height="93" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
