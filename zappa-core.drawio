@@ -31,7 +31,7 @@
         <mxCell id="uAXjuTPtpwmEb5Gci0zC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uAXjuTPtpwmEb5Gci0zC-7" target="uAXjuTPtpwmEb5Gci0zC-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-7" value="&lt;font&gt;[MS2 - lambda]&lt;br&gt;zappa-lambda-receive&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;fontSize=11;fontColor=#FFFF33;" parent="1" vertex="1">
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-7" value="&lt;font&gt;[MS2 - lambda]&lt;br&gt;zappa-lambda-receive&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;fontSize=11;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="647" y="349" width="40" height="43" as="geometry" />
         </mxCell>
         <mxCell id="uAXjuTPtpwmEb5Gci0zC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uAXjuTPtpwmEb5Gci0zC-13" target="uAXjuTPtpwmEb5Gci0zC-14" edge="1">

@@ -95,9 +95,6 @@
         <mxCell id="uAXjuTPtpwmEb5Gci0zC-43" value="remover definição de fluxo default (kdmenu)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;labelBackgroundColor=#FFFFCC;" parent="1" vertex="1">
           <mxGeometry x="489.55" y="193" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-46" value="&lt;span style=&quot;background-color: rgb(255, 206, 159);&quot;&gt;feitos:&lt;br&gt;1. permissão para ms2 - enviar para sqs de chat-bot-entrada&lt;br&gt;2. MS2 gravar no sqs chat-bot e não no receive&lt;br&gt;3. (desfeito pois está dando erro de msg vazia) parar de ler da sqs de receive em MS3&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="652" y="518" width="169" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="WPpmKkPCO4bRBqICWg7H-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WPpmKkPCO4bRBqICWg7H-1" target="WPpmKkPCO4bRBqICWg7H-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
