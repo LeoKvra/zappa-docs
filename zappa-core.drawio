@@ -5,102 +5,116 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gxORE8VRhKOJMyZncSgE-14" value="Usuário via &lt;br&gt;API W&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;hatsapp&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=11;align=center;" parent="1" vertex="1">
-          <mxGeometry x="101" y="15" width="30" height="60" as="geometry" />
+          <mxGeometry x="81" y="193" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0oimBVuN6yDVSVwhgHxB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gxORE8VRhKOJMyZncSgE-36" target="0oimBVuN6yDVSVwhgHxB-1">
+        <mxCell id="0oimBVuN6yDVSVwhgHxB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="gxORE8VRhKOJMyZncSgE-36" target="0oimBVuN6yDVSVwhgHxB-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gxORE8VRhKOJMyZncSgE-36" value="&lt;font style=&quot;color: rgb(255, 255, 255); font-weight: 400;&quot;&gt;[post]&lt;/font&gt;&lt;div style=&quot;color: rgb(255, 255, 255); font-weight: 400;&quot;&gt;&lt;font&gt;webhook.zappa.solutions/whatsapp&lt;/font&gt;&lt;/div&gt;" style="sketch=0;html=1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=image;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzY3LjgxODMyODg1NzQyMTkiIHZpZXdCb3g9IjcuMTA1NDI3MzU3NjAxMDAyZS0xNSAwIDM2Ni40MTAxODY3Njc1NzgxIDM2Ny44MTgzMjg4NTc0MjE5IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0IiB3aWR0aD0iMzY2LjQxMDE5Njc2NzU3OTEiIHZlcnNpb249IjEuMSIgaWQ9InN2Zzk4NyIgem9vbUFuZFBhbj0ibWFnbmlmeSI+JiN4YTsgIDxwYXRoIGQ9Im0gNDguMjUxOTYsMTExLjUzOTA2IGMgLTcuNjE4NjQsMmUtNCAtMTMuNzk0NzIsNi4xNzYyOCAtMTMuNzk0OTMsMTMuNzk0OTIgMi4xZS00LDcuNjE4NjQgNi4xNzYyOSwxMy43OTQ3MiAxMy43OTQ5MywxMy43OTQ5MiBoIDE0NS4xNDY5MiB2IC0yNy41ODk4NCB6IG0gMjM4LjYwODU5LDU3LjQ1MTE3IGggNjUuNzU0NjkgYyA3LjYxODY0LC0yLjFlLTQgMTMuNzk0NzEsLTYuMTc2MjggMTMuNzk0OTIsLTEzLjc5NDkyIC0yLjFlLTQsLTcuNjE4NjQgLTYuMTc2MjgsLTEzLjc5NDcxIC0xMy43OTQ5MiwtMTMuNzk0OTIgSCAyODQuODUwNiBaIE0gMTMuNzk0OTIsMTcwLjk3NDYxIEMgNi4xNzYyODAxLDE3MC45NzQ4MiAyLjEwMDkxOWUtNCwxNzcuMTUwODkgOS4xODk5MjFlLTgsMTg0Ljc2OTUzIC04LjY5OTA4MWUtNCwxOTIuMzg4OTMgNi4xNzU1MjAxLDE5OC41NjYxOSAxMy43OTQ5MiwxOTguNTY2NCBIIDE5My4zOTg4OCBWIDE3MC45NzQ2MSBaIE0gMjg0LjMwNzgsMjI3LjU2NjQgaCA2OC4zMDc0NCBjIDcuNjE4NjQsLTIuMWUtNCAxMy43OTQ3MSwtNi4xNzYyOCAxMy43OTQ5MiwtMTMuNzk0OTIgLTIuMWUtNCwtNy42MTg2NCAtNi4xNzYyOCwtMTMuNzk0NzEgLTEzLjc5NDkyLC0xMy43OTQ5MiBoIC02NS45MjE3OCB6IG0gLTIzNi4wNTU4NCwxLjY5NzI3IGMgLTcuNjE4NjQsMmUtNCAtMTMuNzk0NzIsNi4xNzYyOCAtMTMuNzk0OTMsMTMuNzk0OTIgMi4xZS00LDcuNjE4NjQgNi4xNzYyOSwxMy43OTQ3MiAxMy43OTQ5MywxMy43OTQ5MiBIIDE5My4zOTg4OCBWIDIyOS4yNjM2NyBaIE0gMTg5LjUyMTQ5LDAgYyAtMjQuNTc0MTEsMCAtNDkuMTY3MzcsMjAuMDU1MDcgLTU5LjQzNzUsNzUuMzczMDQgaCAzMC41ODAwNyBjIDQuNjE2MzMsLTI0LjE2MjA2IDE1LjM0ODk2LC00Ny41MjE0OCAyNy44NTM1MiwtNDcuNTIxNDggMTIuMTU4OCwwIDM5LjQ1ODk4LDU3LjQ1MDQ0IDM5LjQ1ODk4LDE2MC40MTQwNiAwLDY5LjkxNTEzIC0xOS41NzgwOSwxNTIuMTE1MjQgLTQxLjE3MTg3LDE1Mi4xMTUyMyAtMTUuMjY4ODEsMmUtNSAtMjEuMjE2NjgsLTI4LjMzMzU2IC0yNS40NDMzNiwtNDYuNzE4NzQgbCAtMzAuNDE0MDYsLTAuMDY4NCBjIDQuMjIwNzQsMjAuNTQwODcgMTYuOTA3NjgsNzQuMjI0NiA1Ny43MTI4OSw3NC4yMjQ2IDUzLjQzNjcyLDAgNjguOTEyMTEsLTExMS45OTMwNSA2OC45MTIxMSwtMTgwLjQ2Mjg5IEMgMjU3LjU3MjI3LDkzLjgwMDc2IDIzNi41ODM0LDAgMTg5LjUyMTQ5LDAgWiIgc3R5bGU9ImNvbG9yOiMwMDAwMDA7b3BhY2l0eToxO2ZpbGw6IzQyODVmNDtmaWxsLW9wYWNpdHk6MTtzdHJva2UtbGluZWNhcDpyb3VuZDstaW5rc2NhcGUtc3Ryb2tlOm5vbmUiLz4mI3hhOzwvc3ZnPg==;" parent="1" vertex="1">
-          <mxGeometry x="261" y="23" width="42" height="42" as="geometry" />
+          <mxGeometry x="241" y="201" width="42" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0oimBVuN6yDVSVwhgHxB-1" target="0oimBVuN6yDVSVwhgHxB-7">
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0oimBVuN6yDVSVwhgHxB-1" target="0oimBVuN6yDVSVwhgHxB-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e51400;strokeColor=#B20000;dashed=1;strokeWidth=3;" edge="1" parent="1">
+        <mxCell id="0oimBVuN6yDVSVwhgHxB-1" value="&lt;font&gt;[MS1 - lambda]&lt;br&gt;zappa-lambda-api-webhook&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="439" y="201" width="40" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0oimBVuN6yDVSVwhgHxB-7" target="uAXjuTPtpwmEb5Gci0zC-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0oimBVuN6yDVSVwhgHxB-7" value="[sqs]&lt;div&gt;zappa-receive-entrada&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="651" y="202" width="32.91" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.476;entryY=0.524;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="gxORE8VRhKOJMyZncSgE-14" target="gxORE8VRhKOJMyZncSgE-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uAXjuTPtpwmEb5Gci0zC-7" target="uAXjuTPtpwmEb5Gci0zC-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-7" value="&lt;font&gt;[MS2 - lambda]&lt;br&gt;zappa-lambda-receive&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;fontSize=11;fontColor=#FFFF33;" parent="1" vertex="1">
+          <mxGeometry x="647" y="349" width="40" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uAXjuTPtpwmEb5Gci0zC-13" target="uAXjuTPtpwmEb5Gci0zC-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-13" value="[sqs]&lt;div&gt;zappa-chat-bot-entrada&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="501" y="350" width="32.91" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uAXjuTPtpwmEb5Gci0zC-14" target="uAXjuTPtpwmEb5Gci0zC-18" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="478.45" y="90" as="sourcePoint" />
-            <mxPoint x="537.45" y="196" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="478.45" y="144" />
-              <mxPoint x="537.45" y="144" />
+              <mxPoint x="360" y="558" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0oimBVuN6yDVSVwhgHxB-1" value="&lt;font&gt;[lambda]&lt;br&gt;zappa-lambda-api-webhook&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="459" y="23" width="40" height="43" as="geometry" />
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-14" value="&lt;font&gt;[MS3 - lambda]&lt;br&gt;zappa-lambda-chat-bot&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="351" y="349" width="40" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0oimBVuN6yDVSVwhgHxB-7" target="uAXjuTPtpwmEb5Gci0zC-7">
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uAXjuTPtpwmEb5Gci0zC-17" target="uAXjuTPtpwmEb5Gci0zC-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0oimBVuN6yDVSVwhgHxB-7" value="[sqs]&lt;div&gt;zappa-receive-entrada&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="671" y="24" width="32.91" height="40" as="geometry" />
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-17" value="[sqs]&lt;div&gt;zappa-comunicador&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="513.55" y="539" width="32.91" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.476;entryY=0.524;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gxORE8VRhKOJMyZncSgE-14" target="gxORE8VRhKOJMyZncSgE-36">
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uAXjuTPtpwmEb5Gci0zC-18" target="uAXjuTPtpwmEb5Gci0zC-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uAXjuTPtpwmEb5Gci0zC-7" target="uAXjuTPtpwmEb5Gci0zC-13">
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-18" value="[sqs]&lt;div&gt;zappa-processamento-externo-entrada&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="343" y="625" width="32.91" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-19" value="&lt;font&gt;[MS4 - lambda]&lt;br&gt;zappa-lambda-comunicador&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="509.54999999999995" y="675" width="40" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uAXjuTPtpwmEb5Gci0zC-20" target="uAXjuTPtpwmEb5Gci0zC-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-7" value="&lt;font&gt;[lambda]&lt;br&gt;zappa-lambda-receive&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;fontSize=11;fontColor=#FFFF33;" vertex="1" parent="1">
-          <mxGeometry x="667" y="171" width="40" height="43" as="geometry" />
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-20" value="&lt;font&gt;[MS5 - lambda]&lt;br&gt;zappa-lambda-chat-bot-processamento-externo&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="134.46000000000004" y="606" width="40" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uAXjuTPtpwmEb5Gci0zC-13" target="uAXjuTPtpwmEb5Gci0zC-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-13" value="[sqs]&lt;div&gt;zappa-chat-bot-entrada&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="521" y="172" width="32.91" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uAXjuTPtpwmEb5Gci0zC-14" target="uAXjuTPtpwmEb5Gci0zC-18">
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.348;entryY=0.725;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="383" as="sourcePoint" />
+            <mxPoint x="525.00268" y="559" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="380" y="380" />
+              <mxPoint x="380" y="558" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-14" value="&lt;font&gt;[lambda]&lt;br&gt;zappa-lambda-chat-bot&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="371" y="171" width="40" height="43" as="geometry" />
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-28" value="&lt;div&gt;API Whatsapp&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=11;align=center;" parent="1" vertex="1">
+          <mxGeometry x="712" y="667" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uAXjuTPtpwmEb5Gci0zC-17" target="uAXjuTPtpwmEb5Gci0zC-19">
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="uAXjuTPtpwmEb5Gci0zC-19" target="uAXjuTPtpwmEb5Gci0zC-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-17" value="[sqs]&lt;div&gt;zappa-comunicador&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="533.55" y="361" width="32.91" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uAXjuTPtpwmEb5Gci0zC-18" target="uAXjuTPtpwmEb5Gci0zC-20">
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uAXjuTPtpwmEb5Gci0zC-35" target="uAXjuTPtpwmEb5Gci0zC-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-18" value="[sqs]&lt;div&gt;zappa-processamento-externo-entrada&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="363" y="447" width="32.91" height="40" as="geometry" />
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-35" value="[sqs]&lt;div&gt;zappa-processamento-externo-saida&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="138.01000000000002" y="350.5" width="32.91" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-19" value="&lt;font&gt;[lambda]&lt;br&gt;zappa-lambda-comunicador&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="529.55" y="497" width="40" height="43" as="geometry" />
+        <mxCell id="uAXjuTPtpwmEb5Gci0zC-43" value="remover definição de fluxo default (kdmenu)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;labelBackgroundColor=#FFFFCC;" parent="1" vertex="1">
+          <mxGeometry x="489.55" y="193" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uAXjuTPtpwmEb5Gci0zC-20" target="uAXjuTPtpwmEb5Gci0zC-35">
+        <mxCell id="WPpmKkPCO4bRBqICWg7H-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WPpmKkPCO4bRBqICWg7H-1" target="WPpmKkPCO4bRBqICWg7H-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-20" value="&lt;font&gt;[lambda]&lt;br&gt;zappa-lambda-chat-bot-processamento-externo&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="154.46000000000004" y="428" width="40" height="43" as="geometry" />
+        <mxCell id="WPpmKkPCO4bRBqICWg7H-1" value="Integração&lt;br&gt;Chamada via API" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="75.5" y="57" width="41" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.348;entryY=0.725;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="205" as="sourcePoint" />
-            <mxPoint x="545.00268" y="381" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="400" y="380" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-28" value="&lt;div&gt;API Whatsapp&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=11;align=center;" vertex="1" parent="1">
-          <mxGeometry x="732" y="489" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uAXjuTPtpwmEb5Gci0zC-19" target="uAXjuTPtpwmEb5Gci0zC-28">
+        <mxCell id="WPpmKkPCO4bRBqICWg7H-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WPpmKkPCO4bRBqICWg7H-2" target="WPpmKkPCO4bRBqICWg7H-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uAXjuTPtpwmEb5Gci0zC-35" target="uAXjuTPtpwmEb5Gci0zC-14">
+        <mxCell id="WPpmKkPCO4bRBqICWg7H-2" value="&lt;font style=&quot;color: rgb(255, 255, 255); font-weight: 400;&quot;&gt;[post]&lt;/font&gt;&lt;div style=&quot;color: rgb(255, 255, 255); font-weight: 400;&quot;&gt;&lt;font&gt;api.zappa.solutions/user-flow&lt;/font&gt;&lt;/div&gt;" style="sketch=0;html=1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-6;fontSize=11;fontStyle=1;fontColor=#999999;shape=image;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzY3LjgxODMyODg1NzQyMTkiIHZpZXdCb3g9IjcuMTA1NDI3MzU3NjAxMDAyZS0xNSAwIDM2Ni40MTAxODY3Njc1NzgxIDM2Ny44MTgzMjg4NTc0MjE5IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0IiB3aWR0aD0iMzY2LjQxMDE5Njc2NzU3OTEiIHZlcnNpb249IjEuMSIgaWQ9InN2Zzk4NyIgem9vbUFuZFBhbj0ibWFnbmlmeSI+JiN4YTsgIDxwYXRoIGQ9Im0gNDguMjUxOTYsMTExLjUzOTA2IGMgLTcuNjE4NjQsMmUtNCAtMTMuNzk0NzIsNi4xNzYyOCAtMTMuNzk0OTMsMTMuNzk0OTIgMi4xZS00LDcuNjE4NjQgNi4xNzYyOSwxMy43OTQ3MiAxMy43OTQ5MywxMy43OTQ5MiBoIDE0NS4xNDY5MiB2IC0yNy41ODk4NCB6IG0gMjM4LjYwODU5LDU3LjQ1MTE3IGggNjUuNzU0NjkgYyA3LjYxODY0LC0yLjFlLTQgMTMuNzk0NzEsLTYuMTc2MjggMTMuNzk0OTIsLTEzLjc5NDkyIC0yLjFlLTQsLTcuNjE4NjQgLTYuMTc2MjgsLTEzLjc5NDcxIC0xMy43OTQ5MiwtMTMuNzk0OTIgSCAyODQuODUwNiBaIE0gMTMuNzk0OTIsMTcwLjk3NDYxIEMgNi4xNzYyODAxLDE3MC45NzQ4MiAyLjEwMDkxOWUtNCwxNzcuMTUwODkgOS4xODk5MjFlLTgsMTg0Ljc2OTUzIC04LjY5OTA4MWUtNCwxOTIuMzg4OTMgNi4xNzU1MjAxLDE5OC41NjYxOSAxMy43OTQ5MiwxOTguNTY2NCBIIDE5My4zOTg4OCBWIDE3MC45NzQ2MSBaIE0gMjg0LjMwNzgsMjI3LjU2NjQgaCA2OC4zMDc0NCBjIDcuNjE4NjQsLTIuMWUtNCAxMy43OTQ3MSwtNi4xNzYyOCAxMy43OTQ5MiwtMTMuNzk0OTIgLTIuMWUtNCwtNy42MTg2NCAtNi4xNzYyOCwtMTMuNzk0NzEgLTEzLjc5NDkyLC0xMy43OTQ5MiBoIC02NS45MjE3OCB6IG0gLTIzNi4wNTU4NCwxLjY5NzI3IGMgLTcuNjE4NjQsMmUtNCAtMTMuNzk0NzIsNi4xNzYyOCAtMTMuNzk0OTMsMTMuNzk0OTIgMi4xZS00LDcuNjE4NjQgNi4xNzYyOSwxMy43OTQ3MiAxMy43OTQ5MywxMy43OTQ5MiBIIDE5My4zOTg4OCBWIDIyOS4yNjM2NyBaIE0gMTg5LjUyMTQ5LDAgYyAtMjQuNTc0MTEsMCAtNDkuMTY3MzcsMjAuMDU1MDcgLTU5LjQzNzUsNzUuMzczMDQgaCAzMC41ODAwNyBjIDQuNjE2MzMsLTI0LjE2MjA2IDE1LjM0ODk2LC00Ny41MjE0OCAyNy44NTM1MiwtNDcuNTIxNDggMTIuMTU4OCwwIDM5LjQ1ODk4LDU3LjQ1MDQ0IDM5LjQ1ODk4LDE2MC40MTQwNiAwLDY5LjkxNTEzIC0xOS41NzgwOSwxNTIuMTE1MjQgLTQxLjE3MTg3LDE1Mi4xMTUyMyAtMTUuMjY4ODEsMmUtNSAtMjEuMjE2NjgsLTI4LjMzMzU2IC0yNS40NDMzNiwtNDYuNzE4NzQgbCAtMzAuNDE0MDYsLTAuMDY4NCBjIDQuMjIwNzQsMjAuNTQwODcgMTYuOTA3NjgsNzQuMjI0NiA1Ny43MTI4OSw3NC4yMjQ2IDUzLjQzNjcyLDAgNjguOTEyMTEsLTExMS45OTMwNSA2OC45MTIxMSwtMTgwLjQ2Mjg5IEMgMjU3LjU3MjI3LDkzLjgwMDc2IDIzNi41ODM0LDAgMTg5LjUyMTQ5LDAgWiIgc3R5bGU9ImNvbG9yOiMwMDAwMDA7b3BhY2l0eToxO2ZpbGw6IzQyODVmNDtmaWxsLW9wYWNpdHk6MTtzdHJva2UtbGluZWNhcDpyb3VuZDstaW5rc2NhcGUtc3Ryb2tlOm5vbmUiLz4mI3hhOzwvc3ZnPg==;" vertex="1" parent="1">
+          <mxGeometry x="241" y="61" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="WPpmKkPCO4bRBqICWg7H-3" value="&lt;font&gt;[MS6 - lambda]&lt;br&gt;zappa-lambda-api-core&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="439" y="61" width="40" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="WPpmKkPCO4bRBqICWg7H-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WPpmKkPCO4bRBqICWg7H-3" target="0oimBVuN6yDVSVwhgHxB-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-35" value="[sqs]&lt;div&gt;zappa-processamento-externo-saida&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="158.01000000000002" y="172.5" width="32.91" height="40" as="geometry" />
+        <mxCell id="WPpmKkPCO4bRBqICWg7H-9" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.whatsapp;fillColor=#4FE238;gradientColor=#138709" vertex="1" parent="1">
+          <mxGeometry x="60" y="223" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
