@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9" pages="2">
   <diagram name="diagrama" id="x4owEQR5tJqsFIFqXLhK">
-    <mxGraphModel dx="1434" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="984" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -91,9 +91,6 @@
         </mxCell>
         <mxCell id="uAXjuTPtpwmEb5Gci0zC-35" value="[sqs]&lt;div&gt;zappa-processamento-externo-saida&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="138.01000000000002" y="350.5" width="32.91" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="uAXjuTPtpwmEb5Gci0zC-43" value="remover definição de fluxo default (kdmenu)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;labelBackgroundColor=#FFFFCC;" parent="1" vertex="1">
-          <mxGeometry x="489.55" y="193" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WPpmKkPCO4bRBqICWg7H-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WPpmKkPCO4bRBqICWg7H-1" target="WPpmKkPCO4bRBqICWg7H-2">
           <mxGeometry relative="1" as="geometry" />
